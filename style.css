@@ -38,7 +38,7 @@ body{
     border: solid var(--purple) 2px;
 }
 
-#userName {
+#userName, #projects {
     width: 100%;
 
     color: var(--white);
