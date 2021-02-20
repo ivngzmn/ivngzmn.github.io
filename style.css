@@ -11,7 +11,7 @@
     --pink:#ff79c6;
 }
 
-body{
+body {
     background: url('../img/Lightning-bg.jpg');
     background-position: center center;
     background-size: cover;
@@ -19,6 +19,11 @@ body{
     background-attachment: fixed;
     background-color: var(--background);
     color: var(--white);
+}
+
+footer {
+    margin-left: auto; 
+    margin-right: auto
 }
 
 .img {
