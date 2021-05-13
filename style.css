@@ -4,39 +4,37 @@
 :root {
     --font: 'Open Sans', sans-serif;
     --background: #282a36;
-    --selection:#44475a;
-    --comment:#6272a4;
-    --purple:#bd93f9;
-    --white:#f8f8f2;
-    --pink:#ff79c6;
+    --selection: #44475a;
+    --comment: #6272a4;
+    --purple: #bd93f9;
+    --white: #f8f8f2;
+    --pink: #ff79c6;
 }
 
-body {
-    background: url('../img/Lightning-bg.jpg');
-    background-position: center center;
+html {
+    background: url('../img/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: var(--background);
-    color: var(--white);
 }
+
+
 
 footer {
     display: table;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    color: var(--white);
 }
 
-.img {
-
-}
 
 #userPhoto {
     height: 150px;
-    
+
     width: 150px;
-    
+
     display: block;
 
     margin: 35px auto 20px;
@@ -45,7 +43,8 @@ footer {
     border: solid var(--purple) 2px;
 }
 
-#userName, #projects {
+#userName,
+#projects {
     width: 100%;
 
     color: var(--white);
@@ -64,18 +63,17 @@ footer {
 #links {
     max-width: 675px;
     width: auto;
-
     display: block;
-
     margin: 27px auto;
 }
+
 .link {
     display: block;
     margin-bottom: 20px;
     padding: 17px;
 
     background-color: var(--background);
-    color:var(--comment);
+    color: var(--comment);
 
     font-family: var(--font);
     font-size: 1rem;
@@ -86,9 +84,9 @@ footer {
 
     text-align: center;
     text-decoration: none;
-    
-    transition: all .25s cubic-bezier(.08,.59,.29,.99);
-    
+
+    transition: all .25s cubic-bezier(.08, .59, .29, .99);
+
 }
 
 .link:hover {
