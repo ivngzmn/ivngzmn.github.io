@@ -30,8 +30,12 @@ footer {
     /* margin-left: auto;
     margin-right: auto; */
     color: var(--white);
+    font-family: var(--font);
 }
 
+p {
+    font-size: 1.5rem;
+}
 
 #userPhoto {
     height: 7em;
@@ -49,7 +53,7 @@ footer {
     color: var(--white);
 
     font-family: var(--font);
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
 
     text-align: center;
@@ -77,6 +81,8 @@ footer {
     font-family: var(--font);
     font-size: 1rem;
     font-weight: 600;
+    color: var(--white);
+    
 
     border-radius: 5px;
     border: solid var(--purple) 1px;
